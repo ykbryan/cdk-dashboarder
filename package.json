@@ -1,5 +1,5 @@
 {
-  "name": "cdk-dashboarder",
+  "name": "@bryanchua/cdk-dashboarder",
   "version": "0.1.0",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -20,5 +20,28 @@
   },
   "dependencies": {
     "@aws-cdk/core": "^1.15.0"
-  }
+  },
+  "description": "* `npm run build`   compile typescript to js  * `npm run test`    perform the jest unit tests  * `npm run watch`   watch for changes and compile",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ykbryan/cdk-dashboarder.git"
+  },
+  "keywords": [
+    "cdk",
+    "aws",
+    "cloudwatch",
+    "cloudwatch",
+    "dashboard",
+    "cloudwatch"
+  ],
+  "author": "Bryan Chua",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ykbryan/cdk-dashboarder/issues"
+  },
+  "homepage": "https://github.com/ykbryan/cdk-dashboarder#readme"
 }
