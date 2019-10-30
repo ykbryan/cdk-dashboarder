@@ -1,8 +1,8 @@
 {
-  "name": "@bryanchua/cdk-dashboarder",
-  "version": "0.1.0",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
+  "name": "cdk-dashboarder",
+  "version": "0.1.1",
+  "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",
@@ -23,7 +23,6 @@
   },
   "description": "* `npm run build`   compile typescript to js  * `npm run test`    perform the jest unit tests  * `npm run watch`   watch for changes and compile",
   "directories": {
-    "lib": "lib",
     "test": "test"
   },
   "repository": {

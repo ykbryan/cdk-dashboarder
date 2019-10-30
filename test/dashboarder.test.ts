@@ -1,6 +1,6 @@
 import { expect as expectCDK, haveResource } from '@aws-cdk/assert';
 import cdk = require('@aws-cdk/core');
-import Dashboarder = require('../lib/index');
+import Dashboarder = require('../index');
 
 test('CloudWatch Dashboard Created', () => {
   const app = new cdk.App();
